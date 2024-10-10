@@ -1,0 +1,236 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="b0AF5pVBZFHF0W8zWb-d">
+    <mxGraphModel dx="3056" dy="1209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UpZPnDOhV612dUCYELx6-2" value="Компьютер" style="swimlane;startSize=0;align=right;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="410" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-1" value="Сетевая карта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="280" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-3" value="Процессора" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-17" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="330" y="79" width="29.7" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-18" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="259.7" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-19" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.relay_coil;direction=south;" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="292.2" y="320" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-24" value="Катушка" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="274.7" y="390" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-25" value="Конденсатор" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="259.7" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="UpZPnDOhV612dUCYELx6-2" source="UpZPnDOhV612dUCYELx6-19" target="UpZPnDOhV612dUCYELx6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="UpZPnDOhV612dUCYELx6-2" source="UpZPnDOhV612dUCYELx6-19" target="UpZPnDOhV612dUCYELx6-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="355" />
+              <mxPoint x="370" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-31" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="UpZPnDOhV612dUCYELx6-2">
+          <mxGeometry x="68" y="60" width="44.8" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-5" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="30" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-6" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="90" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-8" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="650" y="450" width="30" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-9" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="30" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-10" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="710" y="450" width="30" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-11" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="740" y="450" width="90" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-14" value="&amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp;0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; 1&amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; &amp;nbsp;1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-15" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="830" y="450" width="30" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-16" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="860" y="450" width="30" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-32" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="1105" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-44" value="Роутер" style="swimlane;startSize=0;align=right;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="940" y="350" width="410" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-45" value="Сетевая карта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-46" value="Процессора" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="239.7" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-47" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="60" y="79" width="29.7" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-48" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="259.7" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-49" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.relay_coil;direction=south;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="292.2" y="320" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-50" value="Катушка" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="274.7" y="390" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-51" value="Конденсатор" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="259.7" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="UpZPnDOhV612dUCYELx6-44" source="UpZPnDOhV612dUCYELx6-49" target="UpZPnDOhV612dUCYELx6-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="UpZPnDOhV612dUCYELx6-44" source="UpZPnDOhV612dUCYELx6-49" target="UpZPnDOhV612dUCYELx6-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="355" />
+              <mxPoint x="370" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-54" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="277.7" y="60" width="44.8" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-55" value="Linux" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="30" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-56" value="Apache/Nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-44">
+          <mxGeometry x="30" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-57" value="Электромагнитная волна" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-58" value="Роутер отправляет это все дело провайдеру и ждет ответ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="461.18" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-59" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="490" as="sourcePoint" />
+            <mxPoint x="1560" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-60" value="Два вида модуляции:&lt;br&gt;1. Частотная (чаще всего используется) - в зависимости от частоты мы кодируем либо 1, либо 0&lt;br&gt;2. Амплитудная - в зависимости от амплитуды мы кодируем либо 1, либо 0" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-63" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="510" y="585" width="50" height="116.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-64" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="560" y="610" width="50" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-66" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="610" y="585" width="50" height="116.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-67" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="660" y="585" width="50" height="116.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-68" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="710" y="585" width="50" height="116.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-69" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="760" y="610" width="50" height="66.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-70" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="810" y="585" width="50" height="116.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-71" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="1">
+          <mxGeometry x="860" y="585" width="50" height="116.18" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-72" value="&amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp;0&amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; &amp;nbsp; &amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; &amp;nbsp; &amp;nbsp;0&amp;nbsp; &amp;nbsp; &amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp; 1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="505" y="550" width="415" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-73" value="Принцип работы сетевой карты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="650" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-74" value="Проброска портов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="40" y="930" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="UpZPnDOhV612dUCYELx6-76" target="UpZPnDOhV612dUCYELx6-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="UpZPnDOhV612dUCYELx6-76" target="UpZPnDOhV612dUCYELx6-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="UpZPnDOhV612dUCYELx6-76" target="UpZPnDOhV612dUCYELx6-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-76" value="Роутер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-78" value="Компьютер 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-79" value="Компьютер 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-80" value="Компьютер 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-84" value="Локальная сеть" style="swimlane;startSize=0;align=right;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-12" y="1350" width="517" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-89" value="192.168.0.102" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="39" y="220" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-90" value="192.168.0.103" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="202" y="220" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-91" value="192.168.0.104" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="382" y="220" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-92" value="bc:f1:71:7b:e7:93" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="20.5" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-93" value="bc:f1:71:7b:e7:94" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="183.5" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-94" value="bc:f1:71:7b:e7:95" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="363.5" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-95" value="192.168.0.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="322" y="10" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-96" value="bc:f1:71:7b:e7:96" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpZPnDOhV612dUCYELx6-84">
+          <mxGeometry x="303.5" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-85" value="Глобальная сеть" style="swimlane;startSize=0;verticalAlign=bottom;align=right;" vertex="1" parent="1">
+          <mxGeometry x="-7" y="1020" width="517" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-86" value="Маршрутизаторы и провайдеры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-85">
+          <mxGeometry x="182" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="UpZPnDOhV612dUCYELx6-85" source="UpZPnDOhV612dUCYELx6-75" target="UpZPnDOhV612dUCYELx6-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-75" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UpZPnDOhV612dUCYELx6-85">
+          <mxGeometry x="182" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="UpZPnDOhV612dUCYELx6-86" target="UpZPnDOhV612dUCYELx6-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpZPnDOhV612dUCYELx6-97" value="Ваш глобальный IP (можно сказать, IP роутера) - 88.0.101.205" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1310" width="383" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
